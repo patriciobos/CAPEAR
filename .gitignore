@@ -1,3 +1,5 @@
+.[Mm]etadata/*
+
 # Compiled Object files
 *.slo
 *.lo
