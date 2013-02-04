@@ -1,0 +1,79 @@
+<html>
+<head>
+
+<title>
+Sistemas Embebidos, Bos/Petrella
+</title>
+
+</head>
+<body>
+
+
+<font face=Georgia>
+<h2>Sistemas Embebidos - Trabajo Pr&aacute;ctico</h2>
+<h4>Grupo: Bos/Petrella</h4>
+
+
+<h5>versión 2.02.02.1152</h5>
+
+
+%! port-toggle
+
+<form method="post" action="capear.shtml"><!--no funciona en uIP-->
+
+<table border=2>
+
+<tr>
+<th width=100>Puerto #</th>
+<th width=120>Reiniciar<br>si no responde</th>
+<th width=70>Hora ON</th>
+<th width=70>Hora OFF</th>
+<th width=80>Estado Actual</th>
+<th width=200>Control manual</th>
+</tr>
+
+<tr>
+<th>1</th>
+<th><input name="PNG_1" type="checkbox"/></th>
+<th><input name="HON_1" maxlength="5" size="3" value="08:00"/></th>
+<th><input name="HOF_1" maxlength="5" size="3" value="19:00"/></th>
+<th>   %! port-status   </th>
+<th>
+<a href="capear.shtml"><img src="/boton.gif" width=100 height=27 /></a>
+</th>
+</tr>
+
+<tr>
+<th>2</th>
+<th><input name="PNG_2" type="checkbox"/></th>
+<th><input name="HON_2" maxlength="5" size="3" value="08:00"/></th>
+<th><input name="HOF_2" maxlength="5" size="3" value="19:00"/></th>
+<th> N/D </th>
+<th><img src="/boton_NA.gif" width=100 height=27 /></th>
+</tr>
+
+<tr>
+<th>3</th>
+<th><input name="PNG_3" type="checkbox"/></th>
+<th><input name="HON_3" maxlength="5" size="3" value="08:00"/></th>
+<th><input name="HOF_3" maxlength="5" size="3" value="19:00"/></th>
+<th> N/D </th>
+<th><img src="/boton_NA.gif" width=100 height=27 /></th>
+</tr>
+
+<tr>
+<th>4</th>
+<th><input name="PNG_4" type="checkbox"/></th>
+<th><input name="HON_4" maxlength="5" size="3" value="08:00"/></th>
+<th><input name="HOF_4" maxlength="5" size="3" value="19:00"/></th>
+<th> N/D </th>
+<th><img src="/boton_NA.gif" width=100 height=27 /></th>
+</tr>
+
+</table>
+
+</form>
+
+
+</body>
+</html>
