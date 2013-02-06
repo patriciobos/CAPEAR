@@ -12,3 +12,7 @@
 *.lai
 *.la
 *.a
+
+# by Matu
+*.axf
+.RDB1768cmsis2_uIP/apps/webserver/_GUARDERIA/*
