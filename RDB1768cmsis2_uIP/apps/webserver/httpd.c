@@ -135,16 +135,15 @@ PT_THREAD(handle_script(struct httpd_state *s))
   while(s->file.len > 0) {
 
     /* Check if we should start executing a script. */
-    if(*s->file.data == ISO_percent &&
-       *(s->file.data + 1) == ISO_bang) {
+    if(*s->file.data == ISO_percent &&		// si el primer caracter es %
+       *(s->file.data + 1) == ISO_bang) {	// y el segundo caracter es !
       s->scriptptr = s->file.data + 3;
       s->scriptlen = s->file.len - 3;
       if(*(s->scriptptr - 1) == ISO_colon) {
 	httpd_fs_open(s->scriptptr + 1, &s->file);
 	PT_WAIT_THREAD(&s->scriptpt, send_file(s));
       } else {
-	PT_WAIT_THREAD(&s->scriptpt,
-		       httpd_cgi(s->scriptptr)(s, s->scriptptr));
+	PT_WAIT_THREAD(&s->scriptpt, httpd_cgi(s->scriptptr)(s, s->scriptptr));
       }
       next_scriptstate(s);
       

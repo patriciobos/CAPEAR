@@ -14,12 +14,12 @@ Sistemas Embebidos, Bos/Petrella
 <h4>Grupo: Bos/Petrella</h4>
 
 
-<h5>versión 2.02.02.1152</h5>
+<h5>versión 2.02.16.1406</h5>
 
 
-%! port-toggle
 
-<form method="post" action="capear.shtml"><!--no funciona en uIP-->
+
+
 
 <table border=2>
 
@@ -33,47 +33,62 @@ Sistemas Embebidos, Bos/Petrella
 </tr>
 
 <tr>
-<th>1</th>
-<th><input name="PNG_1" type="checkbox"/></th>
+<th>1*</th>
+<th><input name="PNG_1" type="checkbox" checked /></th>
 <th><input name="HON_1" maxlength="5" size="3" value="08:00"/></th>
 <th><input name="HOF_1" maxlength="5" size="3" value="19:00"/></th>
 <th>   %! port-status   </th>
 <th>
-<a href="capear.shtml"><img src="/boton.gif" width=100 height=27 /></a>
+<INPUT TYPE="button" value=' ! ' onClick="parent.location='port_sw.shtml'" /> &nbsp;
+<INPUT TYPE="button" value=' 0 ' onClick="parent.location='port_of.shtml'" /> &nbsp;
+<INPUT TYPE="button" value=' 1 ' onClick="parent.location='port_on.shtml'" /> &nbsp;
 </th>
 </tr>
 
 <tr>
 <th>2</th>
-<th><input name="PNG_2" type="checkbox"/></th>
-<th><input name="HON_2" maxlength="5" size="3" value="08:00"/></th>
-<th><input name="HOF_2" maxlength="5" size="3" value="19:00"/></th>
+<th><input disabled name="PNG_2" type="checkbox" checked /></th>
+<th><input disabled name="HON_2" maxlength="5" size="3" value="08:00"/></th>
+<th><input disabled name="HOF_2" maxlength="5" size="3" value="19:00"/></th>
 <th> N/D </th>
-<th><img src="/boton_NA.gif" width=100 height=27 /></th>
+<th>
+<INPUT disabled TYPE="button" value=' ! ' onClick="parent.location='port_sw.shtml'" /> &nbsp;
+<INPUT disabled TYPE="button" value=' 0 ' onClick="parent.location='port_of.shtml'" /> &nbsp;
+<INPUT disabled TYPE="button" value=' 1 ' onClick="parent.location='port_on.shtml'" /> &nbsp;
+</th>
 </tr>
 
 <tr>
 <th>3</th>
-<th><input name="PNG_3" type="checkbox"/></th>
-<th><input name="HON_3" maxlength="5" size="3" value="08:00"/></th>
-<th><input name="HOF_3" maxlength="5" size="3" value="19:00"/></th>
+<th><input disabled name="PNG_3" type="checkbox" checked /></th>
+<th><input disabled name="HON_3" maxlength="5" size="3" value="08:00" /></th>
+<th><input disabled name="HOF_3" maxlength="5" size="3" value="19:00" /></th>
 <th> N/D </th>
-<th><img src="/boton_NA.gif" width=100 height=27 /></th>
+<th>
+<INPUT disabled TYPE="button" value=' ! ' onClick="parent.location='port_sw.shtml'" /> &nbsp;
+<INPUT disabled TYPE="button" value=' 0 ' onClick="parent.location='port_of.shtml'" /> &nbsp;
+<INPUT disabled TYPE="button" value=' 1 ' onClick="parent.location='port_on.shtml'" /> &nbsp;
+</th>
 </tr>
 
 <tr>
 <th>4</th>
-<th><input name="PNG_4" type="checkbox"/></th>
-<th><input name="HON_4" maxlength="5" size="3" value="08:00"/></th>
-<th><input name="HOF_4" maxlength="5" size="3" value="19:00"/></th>
+<th><input disabled name="PNG_4" type="checkbox" checked /></th>
+<th><input disabled name="HON_4" maxlength="5" size="3" value="08:00"/></th>
+<th><input disabled name="HOF_4" maxlength="5" size="3" value="19:00"/></th>
 <th> N/D </th>
-<th><img src="/boton_NA.gif" width=100 height=27 /></th>
+<th>
+<INPUT disabled TYPE="button" value=' ! ' onClick="parent.location='port_sw.shtml'" /> &nbsp;
+<INPUT disabled TYPE="button" value=' 0 ' onClick="parent.location='port_of.shtml'" /> &nbsp;
+<INPUT disabled TYPE="button" value=' 1 ' onClick="parent.location='port_on.shtml'" /> &nbsp;
+</th>
 </tr>
 
 </table>
+</font>
 
-</form>
-
+<br />
+*A los efectos de esta <i>demo</i> el puerto #1 esta mapeado al LED2 del combo LPCXpresso
 
 </body>
 </html>

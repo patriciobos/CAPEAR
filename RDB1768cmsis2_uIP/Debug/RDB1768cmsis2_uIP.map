@@ -1,6 +1,6 @@
 Archive member included because of file (symbol)
 
-E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
                               ./src/cr_startup_lpc176x.o (SystemInit)
 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(_cr__main.o)
                               ./src/cr_startup_lpc176x.o (__main)
@@ -67,7 +67,7 @@ e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/b
 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_hugeval.o)
                               e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_ldexpl.o) (__huge_vall)
 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(division.o)
-                              E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o) (__aeabi_uldivmod)
+                              E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o) (__aeabi_uldivmod)
 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
                               e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o) (__aeabi_dmul)
 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(memcpy.o)
@@ -231,11 +231,11 @@ Discarded input sections
  .text          0x00000000        0x0 ./apps/webserver/httpd.o
  .data          0x00000000        0x0 ./apps/webserver/httpd.o
  .bss           0x00000000        0x0 ./apps/webserver/httpd.o
- .text          0x00000000        0x0 E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .data          0x00000000        0x0 E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .bss           0x00000000        0x0 E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .data          0x00000000        0x0 E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x00000000        0x0 E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .text.SystemCoreClockUpdate
-                0x00000000       0xf0 E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00000000       0xf0 E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .text          0x00000000        0x0 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(_cr__main.o)
  .data          0x00000000        0x0 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(_cr__main.o)
  .bss           0x00000000        0x0 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(_cr__main.o)
@@ -531,7 +531,7 @@ LOAD ./apps/webserver/http-strings.o
 LOAD ./apps/webserver/httpd-cgi.o
 LOAD ./apps/webserver/httpd-fs.o
 LOAD ./apps/webserver/httpd.o
-LOAD E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a
+LOAD E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a
 START GROUP
 LOAD e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a
 LOAD e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a
@@ -541,7 +541,7 @@ END GROUP
                 0x10008000                __top_RamLoc32 = 0x10008000
                 0x20084000                __top_RamAHB32 = 0x20084000
 
-.text           0x00000000     0xa918
+.text           0x00000000     0x9128
  FILL mask 0xff
  *(.isr_vector)
  .isr_vector    0x00000000       0xcc ./src/cr_startup_lpc176x.o
@@ -549,16 +549,16 @@ END GROUP
                 0x000000cc                . = ALIGN (0x4)
                 0x000000cc                __section_table_start = .
                 0x000000cc                __data_section_table = .
-                0x000000cc        0x4 LONG 0xa918 LOADADDR (.data)
+                0x000000cc        0x4 LONG 0x9128 LOADADDR (.data)
                 0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
-                0x000000d4        0x4 LONG 0x40 SIZEOF (.data)
-                0x000000d8        0x4 LONG 0xa918 LOADADDR (.data_RAM2)
+                0x000000d4        0x4 LONG 0x48 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x9128 LOADADDR (.data_RAM2)
                 0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
                 0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
                 0x000000e4                __data_section_table_end = .
                 0x000000e4                __bss_section_table = .
-                0x000000e4        0x4 LONG 0x10000040 ADDR (.bss)
-                0x000000e8        0x4 LONG 0x2860 SIZEOF (.bss)
+                0x000000e4        0x4 LONG 0x10000048 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x2850 SIZEOF (.bss)
                 0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
                 0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
                 0x000000f4                __bss_section_table_end = .
@@ -753,294 +753,287 @@ END GROUP
                 0x00004120       0x64 ./apps/webserver/httpd-cgi.o
  .text.port_toggle
                 0x00004184       0x5c ./apps/webserver/httpd-cgi.o
+ .text.port_on  0x000041e0       0x54 ./apps/webserver/httpd-cgi.o
+ .text.port_of  0x00004234       0x54 ./apps/webserver/httpd-cgi.o
  .text.generate_net_stats
-                0x000041e0       0x54 ./apps/webserver/httpd-cgi.o
+                0x00004288       0x54 ./apps/webserver/httpd-cgi.o
  .text.net_stats
-                0x00004234       0x8c ./apps/webserver/httpd-cgi.o
+                0x000042dc       0x90 ./apps/webserver/httpd-cgi.o
  .text.httpd_fs_strcmp
-                0x000042c0       0x6c ./apps/webserver/httpd-fs.o
+                0x0000436c       0x6c ./apps/webserver/httpd-fs.o
  .text.httpd_fs_open
-                0x0000432c       0x88 ./apps/webserver/httpd-fs.o
-                0x0000432c                httpd_fs_open
+                0x000043d8       0x88 ./apps/webserver/httpd-fs.o
+                0x000043d8                httpd_fs_open
  .text.httpd_fs_count
-                0x000043b4       0x60 ./apps/webserver/httpd-fs.o
-                0x000043b4                httpd_fs_count
+                0x00004460       0x60 ./apps/webserver/httpd-fs.o
+                0x00004460                httpd_fs_count
  .text.generate_part_of_file
-                0x00004414       0x78 ./apps/webserver/httpd.o
+                0x000044c0       0x78 ./apps/webserver/httpd.o
  .text.send_file
-                0x0000448c       0x94 ./apps/webserver/httpd.o
+                0x00004538       0x94 ./apps/webserver/httpd.o
  .text.send_part_of_file
-                0x00004520       0x68 ./apps/webserver/httpd.o
+                0x000045cc       0x68 ./apps/webserver/httpd.o
  .text.next_scriptstate
-                0x00004588       0x50 ./apps/webserver/httpd.o
+                0x00004634       0x50 ./apps/webserver/httpd.o
  .text.handle_script
-                0x000045d8      0x22c ./apps/webserver/httpd.o
+                0x00004684      0x22c ./apps/webserver/httpd.o
  .text.send_headers
-                0x00004804      0x2d4 ./apps/webserver/httpd.o
+                0x000048b0      0x2d4 ./apps/webserver/httpd.o
  .text.handle_output
-                0x00004ad8      0x17c ./apps/webserver/httpd.o
+                0x00004b84      0x17c ./apps/webserver/httpd.o
  .text.handle_input
-                0x00004c54      0x1c4 ./apps/webserver/httpd.o
+                0x00004d00      0x1c0 ./apps/webserver/httpd.o
  .text.handle_connection
-                0x00004e18       0x28 ./apps/webserver/httpd.o
+                0x00004ec0       0x28 ./apps/webserver/httpd.o
  .text.httpd_appcall
-                0x00004e40      0x118 ./apps/webserver/httpd.o
-                0x00004e40                httpd_appcall
+                0x00004ee8      0x118 ./apps/webserver/httpd.o
+                0x00004ee8                httpd_appcall
  .text.httpd_init
-                0x00004f58       0x10 ./apps/webserver/httpd.o
-                0x00004f58                httpd_init
+                0x00005000       0x10 ./apps/webserver/httpd.o
+                0x00005000                httpd_init
  .text.SystemInit
-                0x00004f68       0xe4 E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
-                0x00004f68                SystemInit
- .text.__main   0x0000504c       0x14 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(_cr__main.o)
-                0x0000504c                __main
+                0x00005010       0xe4 E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00005010                SystemInit
+ .text.__main   0x000050f4       0x14 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(_cr__main.o)
+                0x000050f4                __main
  .text.fp_round
-                0x00005060       0x56 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o)
+                0x00005108       0x56 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o)
  .text.lose_trailing_zeros
-                0x000050b6       0x1e e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o)
+                0x0000515e       0x1e e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o)
  .text.pr_dec.clone.0
-                0x000050d4       0x24 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o)
- .text.sprintf  0x000050f8       0x70 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o)
-                0x000050f8                sprintf
+                0x0000517c       0x24 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o)
+ .text.sprintf  0x000051a0       0x70 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o)
+                0x000051a0                sprintf
  .text.fp_display
-                0x00005168      0x918 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o)
+                0x00005210      0x918 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o)
  .text.snprintf
-                0x00005a80       0x6c e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o)
-                0x00005a80                snprintf
- .text._initio  0x00005aec       0x9c e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
-                0x00005aec                _initio
+                0x00005b28       0x6c e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o)
+                0x00005b28                snprintf
+ .text._initio  0x00005b94       0x9c e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
+                0x00005b94                _initio
  .text.__vfprintf
-                0x00005b88      0xc3c e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(printf.o)
-                0x00005b88                __vfprintf
- .text.setvbuf  0x000067c4       0x48 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(setvbuf.o)
-                0x000067c4                setvbuf
- .text.strchr   0x0000680c       0x18 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strchr.o)
-                0x0000680c                strchr
- .text.strcpy   0x00006824       0x42 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcpy.o)
-                0x00006824                strcpy
- .text.strlen   0x00006866       0x4e e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strlen.o)
-                0x00006866                strlen
- .text.strncmp  0x000068b4       0x58 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strncmp.o)
-                0x000068b4                strncmp
- .text.strncpy  0x0000690c       0x58 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strncpy.o)
-                0x0000690c                strncpy
- .text.strrchr  0x00006964       0x24 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strrchr.o)
-                0x00006964                strrchr
- .text.memcpy   0x00006988        0x4 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memcpy.o)
-                0x00006988                memcpy
- .text.memset   0x0000698c        0x4 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memset.o)
-                0x0000698c                memset
+                0x00005c30      0xc3c e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(printf.o)
+                0x00005c30                __vfprintf
+ .text.setvbuf  0x0000686c       0x48 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(setvbuf.o)
+                0x0000686c                setvbuf
+ .text.strchr   0x000068b4       0x18 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strchr.o)
+                0x000068b4                strchr
+ .text.strcpy   0x000068cc       0x42 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcpy.o)
+                0x000068cc                strcpy
+ .text.strlen   0x0000690e       0x4e e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strlen.o)
+                0x0000690e                strlen
+ .text.strncmp  0x0000695c       0x58 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strncmp.o)
+                0x0000695c                strncmp
+ .text.strncpy  0x000069b4       0x58 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strncpy.o)
+                0x000069b4                strncpy
+ .text.strrchr  0x00006a0c       0x24 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strrchr.o)
+                0x00006a0c                strrchr
+ .text.memcpy   0x00006a30        0x4 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memcpy.o)
+                0x00006a30                memcpy
+ .text.memset   0x00006a34        0x4 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memset.o)
+                0x00006a34                memset
  .text._deferredlazyseek
-                0x00006990       0x44 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_deferredlazyseek.o)
-                0x00006990                _deferredlazyseek
+                0x00006a38       0x44 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_deferredlazyseek.o)
+                0x00006a38                _deferredlazyseek
  .text.__flsbuf
-                0x000069d4      0x15e e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_deferredlazyseek.o)
-                0x000069d4                __flsbuf
- .text._fdopen  0x00006b32       0x6e e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fdopen.o)
-                0x00006b32                _fdopen
- .text._fflush  0x00006ba0       0x58 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fflush.o)
-                0x00006ba0                _fflush
- .text._frexpl  0x00006bf8       0x62 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_frexpl.o)
-                0x00006bf8                _frexpl
- *fill*         0x00006c5a        0x2 00
- .text._ldexpl  0x00006c5c       0x50 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_ldexpl.o)
-                0x00006c5c                _ldexpl
+                0x00006a7c      0x15e e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_deferredlazyseek.o)
+                0x00006a7c                __flsbuf
+ .text._fdopen  0x00006bda       0x6e e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fdopen.o)
+                0x00006bda                _fdopen
+ .text._fflush  0x00006c48       0x58 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fflush.o)
+                0x00006c48                _fflush
+ .text._frexpl  0x00006ca0       0x62 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_frexpl.o)
+                0x00006ca0                _frexpl
+ *fill*         0x00006d02        0x2 00
+ .text._ldexpl  0x00006d04       0x50 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_ldexpl.o)
+                0x00006d04                _ldexpl
  .text._Cwritebuf
-                0x00006cac       0x88 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_writebuf.o)
-                0x00006cac                _Cwritebuf
- .text.malloc   0x00006d34       0xd0 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
-                0x00006d34                malloc
- .text.free     0x00006e04        0xa e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
-                0x00006e04                free
- *fill*         0x00006e0e        0x2 00
+                0x00006d54       0x88 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_writebuf.o)
+                0x00006d54                _Cwritebuf
+ .text.malloc   0x00006ddc       0xd0 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+                0x00006ddc                malloc
+ .text.free     0x00006eac        0xa e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+                0x00006eac                free
+ *fill*         0x00006eb6        0x2 00
  .text._Csys_alloc
-                0x00006e10       0x20 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
-                0x00006e10                _Csys_alloc
- .text.fclose   0x00006e30       0x72 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fclose.o)
-                0x00006e30                fclose
- *fill*         0x00006ea2        0x2 00
- .text.fflush   0x00006ea4       0x34 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fflush.o)
-                0x00006ea4                fflush
- .text.fseek    0x00006ed8      0x110 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fseek.o)
-                0x00006ed8                fseek
- .text.ftell    0x00006fe8       0x50 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ftell.o)
-                0x00006fe8                ftell
- .text.remove   0x00007038       0x14 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(remove.o)
-                0x00007038                remove
+                0x00006eb8       0x20 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+                0x00006eb8                _Csys_alloc
+ .text.fclose   0x00006ed8       0x72 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fclose.o)
+                0x00006ed8                fclose
+ *fill*         0x00006f4a        0x2 00
+ .text.fflush   0x00006f4c       0x34 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fflush.o)
+                0x00006f4c                fflush
+ .text.fseek    0x00006f80      0x110 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fseek.o)
+                0x00006f80                fseek
+ .text.ftell    0x00007090       0x50 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ftell.o)
+                0x00007090                ftell
+ .text.remove   0x000070e0       0x14 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(remove.o)
+                0x000070e0                remove
  .text._do_fflush
-                0x0000704c       0x44 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_do_fflush.o)
-                0x0000704c                _do_fflush
+                0x000070f4       0x44 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_do_fflush.o)
+                0x000070f4                _do_fflush
  .text.__aeabi_dmul
-                0x00007090      0x128 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
-                0x00007090                __aeabi_dmul
+                0x00007138      0x128 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x00007138                __aeabi_dmul
  .text.__aeabi_ddiv
-                0x000071b8      0x144 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
-                0x000071b8                __aeabi_ddiv
+                0x00007260      0x144 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x00007260                __aeabi_ddiv
  .text.__aeabi_dsub
-                0x000072fc      0x1d8 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
-                0x000072fc                __aeabi_dsub
+                0x000073a4      0x1d8 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x000073a4                __aeabi_dsub
  .text.__aeabi_dadd
-                0x000074d4      0x13c e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
-                0x000074d4                __aeabi_dadd
+                0x0000757c      0x13c e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x0000757c                __aeabi_dadd
  .text.__aeabi_d2iz
-                0x00007610       0x3e e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
-                0x00007610                __aeabi_d2iz
+                0x000076b8       0x3e e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x000076b8                __aeabi_d2iz
  .text.__bhs_ui2d
-                0x0000764e       0x50 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
-                0x0000764e                __bhs_ui2d
+                0x000076f6       0x50 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x000076f6                __bhs_ui2d
  .text.__aeabi_i2d
-                0x0000769e       0x10 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
-                0x0000769e                __aeabi_i2d
+                0x00007746       0x10 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x00007746                __aeabi_i2d
  .text.__aeabi_dcmpeq
-                0x000076ae       0x36 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
-                0x000076ae                __aeabi_dcmpeq
+                0x00007756       0x36 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x00007756                __aeabi_dcmpeq
  .text.__aeabi_dcmplt
-                0x000076e4       0x5a e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
-                0x000076e4                __aeabi_dcmplt
+                0x0000778c       0x5a e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x0000778c                __aeabi_dcmplt
  .text.__aeabi_dcmple
-                0x0000773e       0x5a e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
-                0x0000773e                __aeabi_dcmple
+                0x000077e6       0x5a e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x000077e6                __aeabi_dcmple
  .text.__aeabi_dcmpge
-                0x00007798       0x5a e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
-                0x00007798                __aeabi_dcmpge
+                0x00007840       0x5a e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x00007840                __aeabi_dcmpge
  .text.__aeabi_memcpy
-                0x000077f2       0x26 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(memcpy.o)
-                0x000077f2                __aeabi_memcpy4
-                0x000077f2                __aeabi_memcpy8
-                0x000077f2                __aeabi_memcpy
+                0x0000789a       0x26 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(memcpy.o)
+                0x0000789a                __aeabi_memcpy4
+                0x0000789a                __aeabi_memcpy8
+                0x0000789a                __aeabi_memcpy
  .text.__aeabi_memset_lowlevel
-                0x00007818       0x24 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(memcpy.o)
-                0x00007818                __aeabi_lowlevel_memset
+                0x000078c0       0x24 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(memcpy.o)
+                0x000078c0                __aeabi_lowlevel_memset
  .text.__sys_appexit
-                0x0000783c        0x2 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_appexit.o)
-                0x0000783c                __sys_appexit
-                0x0000783c                __exit
+                0x000078e4        0x2 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_appexit.o)
+                0x000078e4                __sys_appexit
+                0x000078e4                __exit
  .text.__sys_close
-                0x0000783e        0x6 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_close.o)
-                0x0000783e                __sys_close
+                0x000078e6        0x6 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_close.o)
+                0x000078e6                __sys_close
  .text.__sys_flen
-                0x00007844        0x6 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_flen.o)
-                0x00007844                __sys_flen
+                0x000078ec        0x6 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_flen.o)
+                0x000078ec                __sys_flen
  .text.__sys_istty
-                0x0000784a        0x6 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_istty.o)
-                0x0000784a                __sys_istty
+                0x000078f2        0x6 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_istty.o)
+                0x000078f2                __sys_istty
  .text.__sys_remove
-                0x00007850        0x6 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_remove.o)
-                0x00007850                __sys_remove
+                0x000078f8        0x6 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_remove.o)
+                0x000078f8                __sys_remove
  .text.__sys_seek
-                0x00007856        0x6 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_seek.o)
-                0x00007856                __sys_seek
+                0x000078fe        0x6 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_seek.o)
+                0x000078fe                __sys_seek
  .text.__sys_tmpnam
-                0x0000785c        0x6 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_tmpnam.o)
-                0x0000785c                __sys_tmpnam
+                0x00007904        0x6 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_tmpnam.o)
+                0x00007904                __sys_tmpnam
  .text.__sys_write
-                0x00007862        0x4 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_write.o)
-                0x00007862                __sys_write
-                0x00007862                __write
- *fill*         0x00007866        0x2 00
- .text._sbrk    0x00007868       0x40 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(_cr_sbrk.o)
-                0x00007868                _sbrk
+                0x0000790a        0x4 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(__sys_write.o)
+                0x0000790a                __sys_write
+                0x0000790a                __write
+ *fill*         0x0000790e        0x2 00
+ .text._sbrk    0x00007910       0x40 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(_cr_sbrk.o)
+                0x00007910                _sbrk
  .text.__check_heap_overflow
-                0x000078a8       0x2c e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(_cr_check_heap.o)
-                0x000078a8                __check_heap_overflow
+                0x00007950       0x2c e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(_cr_check_heap.o)
+                0x00007950                __check_heap_overflow
  *(.rodata .rodata.*)
- .rodata        0x000078d4      0x128 ./uip/uip.o
-                0x000078dc                uip_ethaddr
- .rodata        0x000079fc        0xc ./uip/uip_arp.o
- .rodata        0x00007a08      0x288 ./apps/webserver/http-strings.o
-                0x00007a08                http_http
-                0x00007a10                http_200
-                0x00007a18                http_301
-                0x00007a20                http_302
-                0x00007a28                http_get
-                0x00007a30                http_10
-                0x00007a3c                http_11
-                0x00007a48                http_content_type
-                0x00007a58                http_texthtml
-                0x00007a64                http_location
-                0x00007a70                http_host
-                0x00007a78                http_crnl
-                0x00007a7c                http_index_html
-                0x00007a88                http_404_html
-                0x00007a94                http_referer
-                0x00007aa0                http_header_200
-                0x00007af4                http_header_404
-                0x00007b50                http_content_type_plain
-                0x00007b70                http_content_type_html
-                0x00007b8c                http_content_type_css
-                0x00007ba8                http_content_type_text
-                0x00007bc4                http_content_type_png
-                0x00007be0                http_content_type_gif
-                0x00007bfc                http_content_type_jpg
-                0x00007c1c                http_content_type_binary
-                0x00007c48                http_html
-                0x00007c50                http_shtml
-                0x00007c58                http_htm
-                0x00007c60                http_css
-                0x00007c68                http_png
-                0x00007c70                http_gif
-                0x00007c78                http_jpg
-                0x00007c80                http_text
-                0x00007c88                http_txt
- .rodata        0x00007c90      0x144 ./apps/webserver/httpd-cgi.o
- .rodata        0x00007dd4     0x2934 ./apps/webserver/httpd-fs.o
-                0x0000a5c8                file_404_html
-                0x0000a5dc                file_boton_gif
-                0x0000a5f0                file_boton_NA_gif
-                0x0000a604                file_capear_shtml
-                0x0000a618                file_fade_png
-                0x0000a62c                file_files_shtml
-                0x0000a640                file_footer_html
-                0x0000a654                file_gpio_shtml
-                0x0000a668                file_header_html
-                0x0000a67c                file_index_html
-                0x0000a690                file_index_ORIGINAL_html
-                0x0000a6a4                file_portchange_shtml
-                0x0000a6b8                file_processes_shtml
-                0x0000a6cc                file_stats_shtml
-                0x0000a6e0                file_style_css
-                0x0000a6f4                file_tcp_shtml
+ .rodata        0x0000797c      0x128 ./uip/uip.o
+                0x00007984                uip_ethaddr
+ .rodata        0x00007aa4        0xc ./uip/uip_arp.o
+ .rodata        0x00007ab0      0x288 ./apps/webserver/http-strings.o
+                0x00007ab0                http_http
+                0x00007ab8                http_200
+                0x00007ac0                http_301
+                0x00007ac8                http_302
+                0x00007ad0                http_get
+                0x00007ad8                http_10
+                0x00007ae4                http_11
+                0x00007af0                http_content_type
+                0x00007b00                http_texthtml
+                0x00007b0c                http_location
+                0x00007b18                http_host
+                0x00007b20                http_crnl
+                0x00007b24                http_index_html
+                0x00007b30                http_404_html
+                0x00007b3c                http_referer
+                0x00007b48                http_header_200
+                0x00007b9c                http_header_404
+                0x00007bf8                http_content_type_plain
+                0x00007c18                http_content_type_html
+                0x00007c34                http_content_type_css
+                0x00007c50                http_content_type_text
+                0x00007c6c                http_content_type_png
+                0x00007c88                http_content_type_gif
+                0x00007ca4                http_content_type_jpg
+                0x00007cc4                http_content_type_binary
+                0x00007cf0                http_html
+                0x00007cf8                http_shtml
+                0x00007d00                http_htm
+                0x00007d08                http_css
+                0x00007d10                http_png
+                0x00007d18                http_gif
+                0x00007d20                http_jpg
+                0x00007d28                http_text
+                0x00007d30                http_txt
+ .rodata        0x00007d38      0x164 ./apps/webserver/httpd-cgi.o
+ .rodata        0x00007e9c     0x107c ./apps/webserver/httpd-fs.o
+                0x00008e8c                file_404_html
+                0x00008ea0                file_capear_shtml
+                0x00008eb4                file_index_html
+                0x00008ec8                file_port_of_shtml
+                0x00008edc                file_port_on_shtml
+                0x00008ef0                file_port_sw_shtml
+                0x00008f04                file_testpage_html
  .rodata.str1.1
-                0x0000a708       0x34 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o)
+                0x00008f18       0x34 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o)
                                  0x35 (size before relaxing)
  .rodata.str1.1
-                0x0000a73c        0x4 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
+                0x00008f4c        0x4 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
  .rodata.str1.1
-                0x0000a740       0x31 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(printf.o)
+                0x00008f50       0x31 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(printf.o)
                                  0x38 (size before relaxing)
  .rodata.str1.1
-                0x0000a771       0x18 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+                0x00008f81       0x18 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
  .rodata.__ctype
-                0x0000a789      0x180 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ctype.o)
-                0x0000a789                __ctype
- *fill*         0x0000a909        0x7 00
+                0x00008f99      0x180 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ctype.o)
+                0x00008f99                __ctype
+ *fill*         0x00009119        0x7 00
  .rodata.__huge_vall
-                0x0000a910        0x8 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_hugeval.o)
-                0x0000a910                __huge_vall
-                0x0000a918                . = ALIGN (0x4)
+                0x00009120        0x8 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_hugeval.o)
+                0x00009120                __huge_vall
+                0x00009128                . = ALIGN (0x4)
 
-.glue_7         0x0000a918        0x0
+.glue_7         0x00009128        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x0000a918        0x0
+.glue_7t        0x00009128        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x0000a918        0x0
+.vfp11_veneer   0x00009128        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x0000a918        0x0
+.v4_bx          0x00009128        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000a918                __exidx_start = .
+                0x00009128                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000a918                __exidx_end = .
-                0x0000a918                _etext = .
+                0x00009128                __exidx_end = .
+                0x00009128                _etext = .
 
-.data_RAM2      0x2007c000        0x0 load address 0x0000a918
+.data_RAM2      0x2007c000        0x0 load address 0x00009128
  FILL mask 0xff
  *(.data.$RAM2*)
  *(.data.$RamAHB32*)
@@ -1052,60 +1045,60 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _end_uninit_RESERVED = .
 
-.data           0x10000000       0x40 load address 0x0000a918
+.data           0x10000000       0x48 load address 0x00009128
  FILL mask 0xff
                 0x10000000                _data = .
  *(vtable)
  *(.data*)
- .data          0x10000000       0x3c ./apps/webserver/httpd-cgi.o
+ .data          0x10000000       0x44 ./apps/webserver/httpd-cgi.o
  .data.SystemCoreClock
-                0x1000003c        0x4 E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
-                0x1000003c                SystemCoreClock
-                0x10000040                . = ALIGN (0x4)
-                0x10000040                _edata = .
+                0x10000044        0x4 E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x10000044                SystemCoreClock
+                0x10000048                . = ALIGN (0x4)
+                0x10000048                _edata = .
 
 .bss_RAM2       0x2007c000        0x0
  *(.bss.$RAM2*)
  *(.bss.$RamAHB32*)
                 0x2007c000                . = ALIGN (0x4)
 
-.bss            0x10000040     0x2860
-                0x10000040                _bss = .
+.bss            0x10000048     0x2850
+                0x10000048                _bss = .
  *(.bss*)
- .bss           0x10000040       0x10 ./uip/uip.o
- .bss           0x10000050       0x68 ./uip/uip_arp.o
- .bss           0x100000b8        0x4 ./main/lpc1700/lpc17xx_systick.o
-                0x100000b8                systick_counter
- .bss           0x100000bc       0x20 ./apps/webserver/httpd-fs.o
- .bss.errno     0x100000dc        0x4 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(errno.o)
-                0x100000dc                errno
+ .bss           0x10000048       0x10 ./uip/uip.o
+ .bss           0x10000058       0x68 ./uip/uip_arp.o
+ .bss           0x100000c0        0x4 ./main/lpc1700/lpc17xx_systick.o
+                0x100000c0                systick_counter
+ .bss           0x100000c4       0x10 ./apps/webserver/httpd-fs.o
+ .bss.errno     0x100000d4        0x4 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(errno.o)
+                0x100000d4                errno
  *(COMMON)
- COMMON         0x100000e0     0x2674 ./uip/uip.o
-                0x100000e0                uip_len
-                0x100000e4                uip_sappdata
-                0x100000e8                uip_acc32
-                0x100000ec                uip_flags
-                0x100000f0                uip_appdata
-                0x100000f4                uip_conn
-                0x100000f8                uip_conns
-                0x100020d8                uip_listenports
-                0x10002128                uip_draddr
-                0x1000212c                uip_stat
-                0x10002158                uip_netmask
-                0x1000215c                uip_hostaddr
-                0x10002160                uip_buf
-                0x10002752                uip_slen
- COMMON         0x10002754        0x4 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
-                0x10002754                _extra
- COMMON         0x10002758      0x140 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
-                0x10002758                __Ciob
- COMMON         0x10002898        0x8 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
-                0x10002898                __heaps
-                0x1000289c                __end_of_heap
-                0x100028a0                . = ALIGN (0x4)
-                0x100028a0                _ebss = .
-                0x100028a0                PROVIDE (end, .)
-                0x100028a0                PROVIDE (_pvHeapStart, .)
+ COMMON         0x100000d8     0x2674 ./uip/uip.o
+                0x100000d8                uip_len
+                0x100000dc                uip_sappdata
+                0x100000e0                uip_acc32
+                0x100000e4                uip_flags
+                0x100000e8                uip_appdata
+                0x100000ec                uip_conn
+                0x100000f0                uip_conns
+                0x100020d0                uip_listenports
+                0x10002120                uip_draddr
+                0x10002124                uip_stat
+                0x10002150                uip_netmask
+                0x10002154                uip_hostaddr
+                0x10002158                uip_buf
+                0x1000274a                uip_slen
+ COMMON         0x1000274c        0x4 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
+                0x1000274c                _extra
+ COMMON         0x10002750      0x140 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+                0x10002750                __Ciob
+ COMMON         0x10002890        0x8 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+                0x10002890                __heaps
+                0x10002894                __end_of_heap
+                0x10002898                . = ALIGN (0x4)
+                0x10002898                _ebss = .
+                0x10002898                PROVIDE (end, .)
+                0x10002898                PROVIDE (_pvHeapStart, .)
                 0x10008000                PROVIDE (_vStackTop, (__top_RamLoc32 - 0x0))
 OUTPUT(RDB1768cmsis2_uIP.axf elf32-littlearm)
 
@@ -1128,9 +1121,9 @@ OUTPUT(RDB1768cmsis2_uIP.axf elf32-littlearm)
  .debug_abbrev  0x00001197      0x1b0 ./apps/webserver/httpd-cgi.o
  .debug_abbrev  0x00001347      0x145 ./apps/webserver/httpd-fs.o
  .debug_abbrev  0x0000148c      0x1c6 ./apps/webserver/httpd.o
- .debug_abbrev  0x00001652       0xe3 E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_abbrev  0x00001652       0xe3 E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_info     0x00000000     0x7161
+.debug_info     0x00000000     0x6f3b
  .debug_info    0x00000000      0x7d7 ./uip/psock.o
  .debug_info    0x000007d7      0x120 ./uip/timer.o
  .debug_info    0x000008f7      0x675 ./uip/uip-fw.o
@@ -1146,33 +1139,33 @@ OUTPUT(RDB1768cmsis2_uIP.axf elf32-littlearm)
  .debug_info    0x000037fb      0xadb ./main/lpc1700/lpc17xx_emac.o
  .debug_info    0x000042d6      0x5f6 ./main/lpc1700/lpc17xx_systick.o
  .debug_info    0x000048cc      0x446 ./apps/webserver/http-strings.o
- .debug_info    0x00004d12      0xe6e ./apps/webserver/httpd-cgi.o
- .debug_info    0x00005b80      0x805 ./apps/webserver/httpd-fs.o
- .debug_info    0x00006385      0xa4d ./apps/webserver/httpd.o
- .debug_info    0x00006dd2      0x38f E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_info    0x00004d12      0xf2e ./apps/webserver/httpd-cgi.o
+ .debug_info    0x00005c40      0x51f ./apps/webserver/httpd-fs.o
+ .debug_info    0x0000615f      0xa4d ./apps/webserver/httpd.o
+ .debug_info    0x00006bac      0x38f E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_line     0x00000000     0x6768
- .debug_line    0x00000000      0x6eb ./uip/psock.o
- .debug_line    0x000006eb       0xe9 ./uip/timer.o
- .debug_line    0x000007d4      0x6b7 ./uip/uip-fw.o
- .debug_line    0x00000e8b      0x607 ./uip/uip-neighbor.o
- .debug_line    0x00001492      0x58d ./uip/uip-split.o
- .debug_line    0x00001a1f      0xa87 ./uip/uip.o
- .debug_line    0x000024a6      0x677 ./uip/uip_arp.o
- .debug_line    0x00002b1d      0x559 ./uip/uiplib.o
- .debug_line    0x00003076      0x4ab ./src/cr_startup_lpc176x.o
- .debug_line    0x00003521       0xde ./main/clock-arch.o
- .debug_line    0x000035ff      0x640 ./main/main.o
- .debug_line    0x00003c3f      0x4fd ./main/tapdev.o
- .debug_line    0x0000413c      0x77b ./main/lpc1700/lpc17xx_emac.o
- .debug_line    0x000048b7      0x4cb ./main/lpc1700/lpc17xx_systick.o
- .debug_line    0x00004d82       0x41 ./apps/webserver/http-strings.o
- .debug_line    0x00004dc3      0x797 ./apps/webserver/httpd-cgi.o
- .debug_line    0x0000555a      0x5c4 ./apps/webserver/httpd-fs.o
- .debug_line    0x00005b1e      0x7cd ./apps/webserver/httpd.o
- .debug_line    0x000062eb      0x47d E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+.debug_line     0x00000000     0x6657
+ .debug_line    0x00000000      0x6d6 ./uip/psock.o
+ .debug_line    0x000006d6       0xe2 ./uip/timer.o
+ .debug_line    0x000007b8      0x6a2 ./uip/uip-fw.o
+ .debug_line    0x00000e5a      0x5f2 ./uip/uip-neighbor.o
+ .debug_line    0x0000144c      0x578 ./uip/uip-split.o
+ .debug_line    0x000019c4      0xa72 ./uip/uip.o
+ .debug_line    0x00002436      0x662 ./uip/uip_arp.o
+ .debug_line    0x00002a98      0x544 ./uip/uiplib.o
+ .debug_line    0x00002fdc      0x4a4 ./src/cr_startup_lpc176x.o
+ .debug_line    0x00003480       0xd7 ./main/clock-arch.o
+ .debug_line    0x00003557      0x624 ./main/main.o
+ .debug_line    0x00003b7b      0x4ef ./main/tapdev.o
+ .debug_line    0x0000406a      0x75f ./main/lpc1700/lpc17xx_emac.o
+ .debug_line    0x000047c9      0x4c4 ./main/lpc1700/lpc17xx_systick.o
+ .debug_line    0x00004c8d       0x41 ./apps/webserver/http-strings.o
+ .debug_line    0x00004cce      0x7a5 ./apps/webserver/httpd-cgi.o
+ .debug_line    0x00005473      0x5af ./apps/webserver/httpd-fs.o
+ .debug_line    0x00005a22      0x7b8 ./apps/webserver/httpd.o
+ .debug_line    0x000061da      0x47d E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_macinfo  0x00000000    0x6a53c
+.debug_macinfo  0x00000000    0x6a53f
  .debug_macinfo
                 0x00000000     0x51cd ./uip/psock.o
  .debug_macinfo
@@ -1206,13 +1199,13 @@ OUTPUT(RDB1768cmsis2_uIP.axf elf32-littlearm)
  .debug_macinfo
                 0x0004f63f     0x9757 ./apps/webserver/httpd-cgi.o
  .debug_macinfo
-                0x00058d96     0x4ea0 ./apps/webserver/httpd-fs.o
+                0x00058d96     0x4ea3 ./apps/webserver/httpd-fs.o
  .debug_macinfo
-                0x0005dc36     0x4fdb ./apps/webserver/httpd.o
+                0x0005dc39     0x4fdb ./apps/webserver/httpd.o
  .debug_macinfo
-                0x00062c11     0x792b E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00062c14     0x792b E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_loc      0x00000000     0x1799
+.debug_loc      0x00000000     0x1809
  .debug_loc     0x00000000      0x288 ./uip/psock.o
  .debug_loc     0x00000288       0xe0 ./uip/timer.o
  .debug_loc     0x00000368      0x230 ./uip/uip-fw.o
@@ -1227,13 +1220,13 @@ OUTPUT(RDB1768cmsis2_uIP.axf elf32-littlearm)
  .debug_loc     0x00000edc       0x9c ./main/tapdev.o
  .debug_loc     0x00000f78      0x188 ./main/lpc1700/lpc17xx_emac.o
  .debug_loc     0x00001100       0xd4 ./main/lpc1700/lpc17xx_systick.o
- .debug_loc     0x000011d4      0x269 ./apps/webserver/httpd-cgi.o
- .debug_loc     0x0000143d       0xe0 ./apps/webserver/httpd-fs.o
- .debug_loc     0x0000151d      0x25c ./apps/webserver/httpd.o
- .debug_loc     0x00001779       0x20 E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_loc     0x000011d4      0x2d9 ./apps/webserver/httpd-cgi.o
+ .debug_loc     0x000014ad       0xe0 ./apps/webserver/httpd-fs.o
+ .debug_loc     0x0000158d      0x25c ./apps/webserver/httpd.o
+ .debug_loc     0x000017e9       0x20 E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
 .debug_pubnames
-                0x00000000      0xb49
+                0x00000000      0xa8c
  .debug_pubnames
                 0x00000000       0x90 ./uip/psock.o
  .debug_pubnames
@@ -1267,11 +1260,11 @@ OUTPUT(RDB1768cmsis2_uIP.axf elf32-littlearm)
  .debug_pubnames
                 0x00000909       0x20 ./apps/webserver/httpd-cgi.o
  .debug_pubnames
-                0x00000929      0x19e ./apps/webserver/httpd-fs.o
+                0x00000929       0xe1 ./apps/webserver/httpd-fs.o
  .debug_pubnames
-                0x00000ac7       0x33 ./apps/webserver/httpd.o
+                0x00000a0a       0x33 ./apps/webserver/httpd.o
  .debug_pubnames
-                0x00000afa       0x4f E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00000a3d       0x4f E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
 .debug_pubtypes
                 0x00000000      0x9f9
@@ -1310,9 +1303,9 @@ OUTPUT(RDB1768cmsis2_uIP.axf elf32-littlearm)
  .debug_pubtypes
                 0x000008ec       0xcf ./apps/webserver/httpd.o
  .debug_pubtypes
-                0x000009bb       0x3e E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x000009bb       0x3e E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_aranges  0x00000000      0x540
+.debug_aranges  0x00000000      0x550
  .debug_aranges
                 0x00000000       0x78 ./uip/psock.o
  .debug_aranges
@@ -1342,15 +1335,15 @@ OUTPUT(RDB1768cmsis2_uIP.axf elf32-littlearm)
  .debug_aranges
                 0x000003c8       0x38 ./main/lpc1700/lpc17xx_systick.o
  .debug_aranges
-                0x00000400       0x70 ./apps/webserver/httpd-cgi.o
+                0x00000400       0x80 ./apps/webserver/httpd-cgi.o
  .debug_aranges
-                0x00000470       0x38 ./apps/webserver/httpd-fs.o
+                0x00000480       0x38 ./apps/webserver/httpd-fs.o
  .debug_aranges
-                0x000004a8       0x70 ./apps/webserver/httpd.o
+                0x000004b8       0x70 ./apps/webserver/httpd.o
  .debug_aranges
-                0x00000518       0x28 E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00000528       0x28 E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_ranges   0x00000000      0x420
+.debug_ranges   0x00000000      0x430
  .debug_ranges  0x00000000       0x68 ./uip/psock.o
  .debug_ranges  0x00000068       0x28 ./uip/timer.o
  .debug_ranges  0x00000090       0x58 ./uip/uip-fw.o
@@ -1365,50 +1358,50 @@ OUTPUT(RDB1768cmsis2_uIP.axf elf32-littlearm)
  .debug_ranges  0x00000298       0x20 ./main/tapdev.o
  .debug_ranges  0x000002b8       0x40 ./main/lpc1700/lpc17xx_emac.o
  .debug_ranges  0x000002f8       0x28 ./main/lpc1700/lpc17xx_systick.o
- .debug_ranges  0x00000320       0x60 ./apps/webserver/httpd-cgi.o
- .debug_ranges  0x00000380       0x28 ./apps/webserver/httpd-fs.o
- .debug_ranges  0x000003a8       0x60 ./apps/webserver/httpd.o
- .debug_ranges  0x00000408       0x18 E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_ranges  0x00000320       0x70 ./apps/webserver/httpd-cgi.o
+ .debug_ranges  0x00000390       0x28 ./apps/webserver/httpd-fs.o
+ .debug_ranges  0x000003b8       0x60 ./apps/webserver/httpd.o
+ .debug_ranges  0x00000418       0x18 E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
 
-.debug_str      0x00000000     0x1c31
- .debug_str     0x00000000      0x2ec ./uip/psock.o
-                                0x351 (size before relaxing)
- .debug_str     0x000002ec       0x57 ./uip/timer.o
-                                 0xc8 (size before relaxing)
- .debug_str     0x00000343      0x181 ./uip/uip-fw.o
-                                0x2fc (size before relaxing)
- .debug_str     0x000004c4       0xc4 ./uip/uip-neighbor.o
-                                0x1e9 (size before relaxing)
- .debug_str     0x00000588       0x5a ./uip/uip-split.o
-                                0x1de (size before relaxing)
- .debug_str     0x000005e2      0x2b2 ./uip/uip.o
-                                0x620 (size before relaxing)
- .debug_str     0x00000894      0x10d ./uip/uip_arp.o
-                                0x2c8 (size before relaxing)
- .debug_str     0x000009a1       0x2a ./uip/uiplib.o
-                                0x107 (size before relaxing)
- .debug_str     0x000009cb      0x17a ./src/cr_startup_lpc176x.o
-                                0x251 (size before relaxing)
- .debug_str     0x00000b45       0x42 ./main/clock-arch.o
-                                0x115 (size before relaxing)
- .debug_str     0x00000b87      0x17f ./main/main.o
-                                0x452 (size before relaxing)
- .debug_str     0x00000d06       0x3d ./main/tapdev.o
-                                0x12d (size before relaxing)
- .debug_str     0x00000d43      0x4cb ./main/lpc1700/lpc17xx_emac.o
-                                0x5ea (size before relaxing)
- .debug_str     0x0000120e      0x311 ./main/lpc1700/lpc17xx_systick.o
-                                0x46b (size before relaxing)
- .debug_str     0x0000151f      0x1f8 ./apps/webserver/http-strings.o
-                                0x262 (size before relaxing)
- .debug_str     0x00001717      0x114 ./apps/webserver/httpd-cgi.o
-                                0x5a8 (size before relaxing)
- .debug_str     0x0000182b      0x2b8 ./apps/webserver/httpd-fs.o
-                                0x3d7 (size before relaxing)
- .debug_str     0x00001ae3       0xc8 ./apps/webserver/httpd.o
-                                0x451 (size before relaxing)
- .debug_str     0x00001bab       0x86 E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
-                                0x283 (size before relaxing)
+.debug_str      0x00000000     0x1b0f
+ .debug_str     0x00000000      0x2e5 ./uip/psock.o
+                                0x34a (size before relaxing)
+ .debug_str     0x000002e5       0x57 ./uip/timer.o
+                                 0xc1 (size before relaxing)
+ .debug_str     0x0000033c      0x181 ./uip/uip-fw.o
+                                0x2f5 (size before relaxing)
+ .debug_str     0x000004bd       0xc4 ./uip/uip-neighbor.o
+                                0x1e2 (size before relaxing)
+ .debug_str     0x00000581       0x5a ./uip/uip-split.o
+                                0x1d7 (size before relaxing)
+ .debug_str     0x000005db      0x2b2 ./uip/uip.o
+                                0x619 (size before relaxing)
+ .debug_str     0x0000088d      0x10d ./uip/uip_arp.o
+                                0x2c1 (size before relaxing)
+ .debug_str     0x0000099a       0x2a ./uip/uiplib.o
+                                0x100 (size before relaxing)
+ .debug_str     0x000009c4      0x17a ./src/cr_startup_lpc176x.o
+                                0x24a (size before relaxing)
+ .debug_str     0x00000b3e       0x42 ./main/clock-arch.o
+                                0x10e (size before relaxing)
+ .debug_str     0x00000b80      0x17f ./main/main.o
+                                0x44b (size before relaxing)
+ .debug_str     0x00000cff       0x3d ./main/tapdev.o
+                                0x126 (size before relaxing)
+ .debug_str     0x00000d3c      0x4cb ./main/lpc1700/lpc17xx_emac.o
+                                0x5e3 (size before relaxing)
+ .debug_str     0x00001207      0x311 ./main/lpc1700/lpc17xx_systick.o
+                                0x464 (size before relaxing)
+ .debug_str     0x00001518      0x1f8 ./apps/webserver/http-strings.o
+                                0x25b (size before relaxing)
+ .debug_str     0x00001710      0x132 ./apps/webserver/httpd-cgi.o
+                                0x5bf (size before relaxing)
+ .debug_str     0x00001842      0x186 ./apps/webserver/httpd-fs.o
+                                0x29e (size before relaxing)
+ .debug_str     0x000019c8       0xc8 ./apps/webserver/httpd.o
+                                0x44a (size before relaxing)
+ .debug_str     0x00001a90       0x7f E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                                0x27c (size before relaxing)
 
 .comment        0x00000000      0x284
  .comment       0x00000000       0x2a ./uip/psock.o
@@ -1430,7 +1423,7 @@ OUTPUT(RDB1768cmsis2_uIP.axf elf32-littlearm)
  .comment       0x00000000       0x2b ./apps/webserver/httpd-cgi.o
  .comment       0x00000000       0x2b ./apps/webserver/httpd-fs.o
  .comment       0x00000000       0x2b ./apps/webserver/httpd.o
- .comment       0x00000000       0x2b E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .comment       0x00000000       0x2b E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .comment       0x0000002a       0x2b e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(_cr__main.o)
  .comment       0x00000000       0x2b e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fpprintf.o)
  .comment       0x00000000       0x2b e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
@@ -1517,7 +1510,7 @@ OUTPUT(RDB1768cmsis2_uIP.axf elf32-littlearm)
  .ARM.attributes
                 0x00000341       0x31 ./apps/webserver/httpd.o
  .ARM.attributes
-                0x00000372       0x31 E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00000372       0x31 E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .ARM.attributes
                 0x000003a3       0x31 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(_cr__main.o)
  .ARM.attributes
@@ -1615,7 +1608,7 @@ OUTPUT(RDB1768cmsis2_uIP.axf elf32-littlearm)
  .ARM.attributes
                 0x00000c82       0x31 e:/faku/sistemas_embebidos/software/nxp/lpcxpresso_4.3.0_1023/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_nohost.a(_cr_check_heap.o)
 
-.debug_frame    0x00000000      0xe5c
+.debug_frame    0x00000000      0xe94
  .debug_frame   0x00000000      0x184 ./uip/psock.o
  .debug_frame   0x00000184       0x8c ./uip/timer.o
  .debug_frame   0x00000210      0x138 ./uip/uip-fw.o
@@ -1630,7 +1623,7 @@ OUTPUT(RDB1768cmsis2_uIP.axf elf32-littlearm)
  .debug_frame   0x000008e4       0x6c ./main/tapdev.o
  .debug_frame   0x00000950       0xe0 ./main/lpc1700/lpc17xx_emac.o
  .debug_frame   0x00000a30       0x84 ./main/lpc1700/lpc17xx_systick.o
- .debug_frame   0x00000ab4      0x178 ./apps/webserver/httpd-cgi.o
- .debug_frame   0x00000c2c       0x88 ./apps/webserver/httpd-fs.o
- .debug_frame   0x00000cb4      0x16c ./apps/webserver/httpd.o
- .debug_frame   0x00000e20       0x3c E:\FAKU\Sistemas_Embebidos\WORKSPACES\uIP_Static_IP\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_frame   0x00000ab4      0x1b0 ./apps/webserver/httpd-cgi.o
+ .debug_frame   0x00000c64       0x88 ./apps/webserver/httpd-fs.o
+ .debug_frame   0x00000cec      0x16c ./apps/webserver/httpd.o
+ .debug_frame   0x00000e58       0x3c E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
