@@ -1,0 +1,23 @@
+<html>
+
+<body>
+
+<table border="0" >
+
+<tr>
+<th width=100>3</th>
+<th width=120><input disabled name="PNG_3" type="checkbox" checked /></th>
+<th width=70 ><input disabled name="HON_3" maxlength="5" size="3" value="08:00" /></th>
+<th width=70 ><input disabled name="HOF_3" maxlength="5" size="3" value="19:00" /></th>
+<th width=100> N/D </th>
+<th width=200> &nbsp; &nbsp; &nbsp;
+<INPUT disabled TYPE="button" value=' ! ' onClick="parent.location='port_sw.shtml'" /> &nbsp;
+<INPUT disabled TYPE="button" value=' 0 ' onClick="parent.location='port_of.shtml'" /> &nbsp;
+<INPUT disabled TYPE="button" value=' 1 ' onClick="parent.location='port_on.shtml'" /> &nbsp;
+</th>
+</tr>
+
+</table>
+
+</body>
+</html>
