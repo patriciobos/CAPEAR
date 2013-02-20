@@ -8,12 +8,12 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include subdir.mk
 -include uip/subdir.mk
 -include src/subdir.mk
--include main/subdir.mk
 -include main/lpc1700/subdir.mk
+-include main/subdir.mk
 -include apps/webserver/subdir.mk
+-include subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)
@@ -33,7 +33,7 @@ all: RDB1768cmsis2_uIP.axf
 RDB1768cmsis2_uIP.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"E:\FAKU\Sistemas_Embebidos\WORKSPACES\CAPEAR\CMSISv2p00_LPC17xx\Debug" -Xlinker --gc-sections -Xlinker -Map=RDB1768cmsis2_uIP.map -mcpu=cortex-m3 -mthumb -T "RDB1768cmsis2_uIP_Debug.ld" -o"RDB1768cmsis2_uIP.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"/home/pato/Facultad/66.66 - Seminario de Embebidos/Capear/Lib_CMSIS2p0_and_Drivers_17XX/Debug" -L"/home/pato/Facultad/66.66 - Seminario de Embebidos/Capear/CMSISv2p00_LPC17xx/Debug" -Xlinker --gc-sections -Xlinker -Map=RDB1768cmsis2_uIP.map -mcpu=cortex-m3 -mthumb -T "RDB1768cmsis2_uIP_Debug.ld" -o "RDB1768cmsis2_uIP.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

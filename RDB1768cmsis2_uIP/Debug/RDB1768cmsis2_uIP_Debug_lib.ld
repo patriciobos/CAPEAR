@@ -2,8 +2,8 @@
  * GENERATED FILE - DO NOT EDIT
  * (C) Code Red Technologies Ltd, 2008-2013
  * Generated linker script file for LPC1768
- * Created from LibIncTemplate.ld (vLPCXpresso v4.3 (0 [Build 1023] [2012-09-19] ))
- * By LPCXpresso v4.3.0 [Build 1023] [2012-09-19]  on Tue Feb 19 21:04:09 ART 2013
+ * Created from LibIncTemplate.ld (vLPCXpresso v5.0 (10 [Build 1022] [2012-11-07] ))
+ * By LPCXpresso v5.0.10 [Build 1022] [2012-11-07]  on Wed Feb 20 14:49:04 ART 2013
  */
 
 
