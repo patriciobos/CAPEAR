@@ -2,5 +2,5 @@
 \contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{3}
 \contentsline {section}{\numberline {2}Desarrollo}{5}
 \contentsline {subsection}{\numberline {2.1}PCB interfaz de potencia}{5}
-\contentsline {section}{\numberline {3}algo}{5}
-\contentsline {section}{\numberline {4}Conclusiones}{5}
+\contentsline {section}{\numberline {3}algo}{6}
+\contentsline {section}{\numberline {4}Conclusiones}{6}

@@ -68,7 +68,7 @@ Problema inherente a los dispositivos autónomos de red\\
  
 Los equipos de red ``autónomos'' --es decir, aquellos que en condiciones normales de trabajo no interactúan con humanos, tales como: switches, routers, camaras IP, servidores no asistidos, almacenamiento RAID directo a red, puntos de acceso inalámbricos, etc.-- son susceptibles de interrumpir su servicio en forma repentina. Normalmente la solución a este problema es tan simple como cortar el suministro de corriente durante unos segundos y luego restituirlo. Este procedimiento fuerza al equipo ``colgado'' a reiniciarse, en cuyo proceso se restablecen las variables de trabajo y (posiblemente) se realiza un autodiagnostico tras lo cual vuelven a prestar servicio en forma normal.\\
 
-Las ventajas de disponer de un equipo autónomo que pueda detectar estas salidas de servicio y accionar sobre el suministro eléctrico son múltiples:
+Las ventajas de disponer de un equipo igualmente autónomo que pueda detectar estas salidas de servicio y accionar sobre el suministro eléctrico son múltiples:
 
 \begin{itemize}
 \item detección temprana de fallas
@@ -78,6 +78,7 @@ Las ventajas de disponer de un equipo autónomo que pueda detectar estas salidas
 \item etc.
 \end{itemize}
 
+
 El LPCXpresso es un toolchain completo de desarrollo y evaluación para microcontroladores de NXP.
 Se compone de los siguientes elementos:
 \begin{itemize}
@@ -86,7 +87,9 @@ Se compone de los siguientes elementos:
 \item LPCXpresso Baseboard EA-XPR-021
 \end{itemize}
 
-Se propone utilizar el entorno de desarrollo LPCXpresso para implementar un {\textbf{Cortacorriente para equipos autónomos de red}}.  El proyecto se segmenta en los siguientes 10 items.
+Se propone utilizar el entorno de desarrollo LPCXpresso para implementar un {\textbf{Cortacorriente para equipos autónomos de red}}. Se pretende desarrollar una interfaz web para configurar el sistema\\ 
+
+El proyecto se segmenta en los siguientes 10 items.
 
 \begin{enumerate}
 \item Determinar que stack de TCP/IP se va a utilizar y probarlo. (LwIP, uIP, NicheLite, etc)
@@ -101,7 +104,7 @@ Se propone utilizar el entorno de desarrollo LPCXpresso para implementar un {\te
 \item Entrega de Informe Final.
 \end{enumerate}
 
-
+$\left({\frac{x^2+15}{10 \rho}}\right)$
 
 %------------------------------------------------------------------------------------------------
 %------------------------------------------------------------------------------------------------
@@ -110,20 +113,44 @@ Se propone utilizar el entorno de desarrollo LPCXpresso para implementar un {\te
 %------------------------------------------------------------------------------------------------
 %------------------------------------------------------------------------------------------------
 \subsection{PCB interfaz de potencia}
+Para que el MCU pueda administrar el suministro eléctrico de los equipos autónomos de red, se implementa una interfaz de potencia 5VDC/220VAC de 4 canales.  Para tal fin se utlizan optoacopladores MOC3021 y triacs BTA12 aislados, de propositos generales.\\
+
+La conmutación se realiza sobre el neutro de la línea de 220VAC, mientras que la carga se conecta al vivo.\\
+
+
+\begin{figure}[ht]
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{./imagenes/potencia-schema1.png}
+		\caption{conectores}
+		\label{fig:figure1}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{./imagenes/potencia-schema2.png}
+		\caption{interfaz 5VDC/220VAC}
+		\label{fig:figure2}
+	\end{minipage}
+\end{figure}
+
+Al desconocerse el tipo de carga que será conectada deben tomarse precausiones para proteger el triac y el optoacoplador. Se utilizan dos redes snubber compuestas por un capacitor de $0.047\mu F$ y un resistor de $3.3k\Omega$ para el triac y un capacitor de $0.1\mu F$ y un resistor de $180\Omega$ para el optoacoplador.\\
+
+Para aislar la excitación del optoacoplador de la capacidad de suministro de corrientes del MCU, la misma se realiza con un transistor bipolar NPN BC548.\\
 
 \begin{figure}[ht]
 	\begin{minipage}[b]{0.45\linewidth}
 		\centering
 		\includegraphics[width=\textwidth]{./imagenes/potencia-PCB.png}
 		\caption{PCB layout}
-		\label{fig:figure1}
+		\label{fig:figure3}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.45\linewidth}
 		\centering
 		\includegraphics[width=\textwidth]{./imagenes/potencia-3D.png}
 		\caption{vista 3D}
-		\label{fig:figure2}
+		\label{fig:figure4}
 	\end{minipage}
 \end{figure}
 

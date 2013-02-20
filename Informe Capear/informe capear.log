@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.17)  20 FEB 2013 17:38
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.17)  20 FEB 2013 19:10
 entering extended mode
  %&-line parsing enabled.
 **"informe capear.tex"
@@ -415,36 +415,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3] [4] <./imagenes/potencia-PCB.png, id=21, 1017.8025pt x 513.92pt>
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+<./imagenes/potencia-schema1.png, id=25, 875.27pt x 239.89626pt>
+File: ./imagenes/potencia-schema1.png Graphic file (type png)
+
+<use ./imagenes/potencia-schema1.png>
+<./imagenes/potencia-schema2.png, id=26, 823.075pt x 377.41pt>
+File: ./imagenes/potencia-schema2.png Graphic file (type png)
+
+<use ./imagenes/potencia-schema2.png>
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+<./imagenes/potencia-PCB.png, id=27, 1017.8025pt x 513.92pt>
 File: ./imagenes/potencia-PCB.png Graphic file (type png)
 
 <use ./imagenes/potencia-PCB.png>
-<./imagenes/potencia-3D.png, id=22, 1369.115pt x 640.3925pt>
+<./imagenes/potencia-3D.png, id=28, 1369.115pt x 640.3925pt>
 File: ./imagenes/potencia-3D.png Graphic file (type png)
 
-<use ./imagenes/potencia-3D.png> [5 <./imagenes/potencia-PCB.png> <./imagenes/p
-otencia-3D.png>] (./informe capear.aux) ) 
+<use ./imagenes/potencia-3D.png> [5 <./imagenes/potencia-schema1.png> <./imagen
+es/potencia-schema2.png> <./imagenes/potencia-PCB.png> <./imagenes/potencia-3D.
+png>] [6] (./informe capear.aux) ) 
 Here is how much of TeX's memory you used:
- 2161 strings out of 495061
- 26126 string characters out of 1182621
- 86746 words of memory out of 3000000
- 5325 multiletter control sequences out of 15000+50000
+ 2176 strings out of 495061
+ 26514 string characters out of 1182621
+ 86762 words of memory out of 3000000
+ 5338 multiletter control sequences out of 15000+50000
  9462 words of font info for 33 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  25i,11n,43p,722b,279s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr
-12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "informe capear.pdf" (5 pages, 222703 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti
+12.pfb>
+Output written on "informe capear.pdf" (6 pages, 273413 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
