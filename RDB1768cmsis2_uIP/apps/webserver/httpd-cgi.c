@@ -65,11 +65,13 @@ HTTPD_CGI_CALL(net, "net-stats", net_stats);
 HTTPD_CGI_CALL(port, "port-status", port_status);
 HTTPD_CGI_CALL(toggle, "port-toggle", port_toggle);
 
-HTTPD_CGI_CALL(porton, "port-on", port_on);	//by CAPEAR
-HTTPD_CGI_CALL(portof, "port-of", port_of);	//by CAPEAR
+HTTPD_CGI_CALL(porton, "port-on", port_on);		//by CAPEAR , el del medio es como se invoca desde la pagina web
+HTTPD_CGI_CALL(portof, "port-of", port_of);		//by CAPEAR
+HTTPD_CGI_CALL(portston, "port-st-on", port_st_on);	//by CAPEAR
+HTTPD_CGI_CALL(portstof, "port-st-of", port_st_of);	//by CAPEAR
 
 //by CAPEAR ANTES: static const struct httpd_cgi_call *calls[] = { &file, &tcp, &net, &port, &toggle, NULL };
-static const struct httpd_cgi_call *calls[] = { &file, &tcp, &net, &port, &toggle, &porton, &portof, NULL };
+static const struct httpd_cgi_call *calls[] = { &file, &tcp, &net, &port, &toggle, &porton, &portof, &portston, &portstof, NULL };
 
 /*---------------------------------------------------------------------------*/
 static
@@ -233,6 +235,48 @@ PT_THREAD(port_of(struct httpd_state *s, char *ptr))
   PSOCK_BEGIN(&s->sout);
   LED_PORT->FIOMASK = 0;
   LED_PORT->FIOPIN = (0 << LED_PIN);
+  PSOCK_END(&s->sout);
+}
+/*---------------------------------------------------------------------------*/
+//by CAPEAR
+static unsigned short
+generate_port_stat_ON(void *arg)
+{
+	unsigned int port_status;
+
+	LED_PORT->FIOMASK = 0;
+	port_status = !!(LED_PORT->FIOPIN & (1 << LED_PIN));
+	return snprintf((char *)uip_appdata, UIP_APPDATA_SIZE,
+			"%s ",  (port_status ? "disabled":""));
+}
+
+static
+PT_THREAD(port_st_on(struct httpd_state *s, char *ptr))
+{
+
+  PSOCK_BEGIN(&s->sout);
+  PSOCK_GENERATOR_SEND(&s->sout, generate_port_stat_ON, s);
+  PSOCK_END(&s->sout);
+}
+/*---------------------------------------------------------------------------*/
+//by CAPEAR
+static unsigned short
+generate_port_stat_OF(void *arg)
+{
+	unsigned int port_status;
+
+	LED_PORT->FIOMASK = 0;
+	port_status = !!(LED_PORT->FIOPIN & (1 << LED_PIN));
+	return snprintf((char *)uip_appdata, UIP_APPDATA_SIZE,
+			"%s ",  (port_status ? "":"disabled"));
+}
+
+static
+PT_THREAD(port_st_of(struct httpd_state *s, char *ptr))
+{
+
+  PSOCK_BEGIN(&s->sout);
+  PSOCK_GENERATOR_SEND(&s->sout, generate_port_stat_OF, s);
   PSOCK_END(&s->sout);
 }
 /*---------------------------------------------------------------------------*/

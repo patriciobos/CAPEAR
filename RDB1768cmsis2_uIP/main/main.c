@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2001, Adam Dunkels.
  * All rights reserved.
  *
@@ -95,9 +95,12 @@ int main(void)
 
 	unsigned int i;
 
-	uip_ipaddr_t ipaddr;	//La variable "ipaddr" es donde se guardará la IP local. Representa
-							//un array de dos enteros sin signo de 16 bits (para el caso de una
-							//direccion IPv4). Sacado de uip.h, lineas 61 a 67:
+	uip_ipaddr_t ipaddr;
+	/* 
+	 La variable "ipaddr" es donde se guardará la IP local. Representa un array
+	 de dos enteros sin signo de 16 bits (para el caso de una direccion IPv4).
+	 Sacado de uip.h, lineas 61 a 67
+	*/
 
 	struct timer periodic_timer, arp_timer;
 
@@ -124,9 +127,9 @@ int main(void)
 	uip_init();
 
 	uip_ipaddr(ipaddr, MYIP_1,MYIP_2,MYIP_3,MYIP_4);
-	uip_sethostaddr(ipaddr);	/* host IP address, esto sería el webserver */
+	uip_sethostaddr(ipaddr); // host IP address, esto sería el webserver
 	uip_ipaddr(ipaddr, MYIP_1,MYIP_2,MYIP_3,1);
-	uip_setdraddr(ipaddr);	/* router IP address, esto sería la "default gateway" */
+	uip_setdraddr(ipaddr);	// router IP address, esto sería el "def.gateway"
 	uip_ipaddr(ipaddr, 255,255,255,0);
 	uip_setnetmask(ipaddr);	/* mask */
 
@@ -138,10 +141,18 @@ int main(void)
 		{
 		//receive packet and put in uip_buf
 
-		uip_len = tapdev_read(uip_buf);					//lee si el buffer recibió "algo"
-    	if(uip_len > 0) //received packet				//si efectivamente hay "algo", inicia el bucle que sigue...
+		uip_len = tapdev_read(uip_buf);		//lee si el buffer recibió "algo"
+
+    	if(uip_len > 0) //received packet		//si efectivamente hay "algo"...
     		{
-      		if(BUF->type == htons(UIP_ETHTYPE_IP))	/* IP packet */		//si recibio un paquete IP full rightness...
+		
+		// ya sabe que hay "ALGO", ahora se fija de que clase de paquete se trata
+
+
+      		if(BUF->type == htons(UIP_ETHTYPE_IP))	/* IP packet */
+			
+			//si recibio un paquete IP "full-rightness" procede con esto:
+
       			{
 	      		uip_arp_ipin();	
 	      		uip_input();
@@ -162,7 +173,10 @@ int main(void)
         			}
       			}
 
-      		else if(BUF->type == htons(UIP_ETHTYPE_ARP))	/*ARP packet */  //si recibio un miserable ARP...
+      		else if(BUF->type == htons(UIP_ETHTYPE_ARP))	/*ARP packet */
+
+			//si en cambio recibio un miserable ARP, procede con esto otro:
+
 	      		{
 	        	uip_arp_arpin();
 
@@ -175,7 +189,7 @@ int main(void)
 		      	}
     		}
 
-    	else if(timer_expired(&periodic_timer))	//no packet but periodic_timer time out (0.5s)
+    	else if(timer_expired(&periodic_timer))	//no packet but time out (0.5s)
     		{
       		timer_reset(&periodic_timer);
       		for(i = 0; i < UIP_CONNS; i++)
